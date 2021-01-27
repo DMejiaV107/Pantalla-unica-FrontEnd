@@ -1,0 +1,10 @@
+.Footer {
+    display: flex;
+    height: 5vh;
+    justify-content: flex-end;
+}
+
+.XiraLogo { 
+    max-height: 100%;
+    margin: 5px 5px;
+}

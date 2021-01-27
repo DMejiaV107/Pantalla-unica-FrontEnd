@@ -1,0 +1,59 @@
+.credits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 40%;
+    background-color: #f8f8f8;
+}
+
+.rectangles-top{
+    display:flex;
+    justify-content: space-around;
+}
+
+.rectangle{
+    height: 2vh;
+    width: 10vw;
+    margin: 5px 5px;
+}
+
+.green{
+    background-color: var(--afirme-color);
+}
+
+.grey{
+    background-color: rgb(190,190,190);
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.opciones {
+    display: inline-block;
+}
+
+.options {
+    border-radius: 5px;
+    width: 140px;
+}
+
+.cuenta-origen {
+    margin-top: 60px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.tarjeta-credito {
+    margin-top: 60px;
+    margin-left: 120px;
+    display: inline-block;    
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 12px;
+}
